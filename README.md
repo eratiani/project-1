@@ -1,0 +1,2 @@
+# smth
+ learning course
