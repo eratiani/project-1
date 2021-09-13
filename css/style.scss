@@ -1,0 +1,99 @@
+@import "reset";
+@import "variables";
+@import "global";
+
+body {
+  background-color: $paleblue;
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1em;
+  padding-top: 2.3125em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2.3125em;
+  text-align: center;
+  line-height: 1.3em;
+}
+.main-wrapper {
+  border-radius: 5%;
+  background-color: white;
+  max-width: 20.4375em;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.8em;
+  margin-bottom: 1em;
+}
+.p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0 auto;
+  padding: 1em 1.9em 1.3em 1.9em;
+}
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.button-1 {
+  color: white;
+  font-size: 1em;
+  width: 80%;
+  height: 3em;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: $Brightblue;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  box-shadow: 2px 13px 17px hsla(245, 75%, 52%, 0.5);
+}
+
+.button-2 {
+  color: black;
+  background-color: $paleblue;
+  font-size: 1em;
+  width: 80%;
+  height: 3em;
+  margin: 10px auto;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.smth-2 {
+  display: flex;
+  border-radius: 15%;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: $paleblue;
+}
+.smth {
+  margin-left: 15px;
+  margin-right: 35px;
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+  }
+  .main-wrapper {
+    margin: 0 auto;
+  }
+}

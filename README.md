@@ -1,2 +1,2 @@
-# smth
- learning course
+# project-1
+ 
